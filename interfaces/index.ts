@@ -2,14 +2,15 @@
 
 // Placeholder for Card component props
 export interface CardProps {
+  image: string;
   title: string;
-  description: string;
-  imageUrl?: string; // optional
+  price: number;
+  location: string;
 }
 
 // Placeholder for Button component props
 export interface ButtonProps {
   label: string;
   onClick: () => void;
-  disabled?: boolean; // optional
+  type?: 'button' | 'submit' | 'reset';
 }
