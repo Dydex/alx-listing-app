@@ -22,7 +22,7 @@ Here’s a quick breakdown of the main directories:
 
 ### 1️⃣ Clone the repository
 
-bash
+git bash
 git clone <your-repo-url>
 cd alx-listing-app
 
